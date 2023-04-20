@@ -8,7 +8,7 @@ export default class App extends Component {
     return (
       <HashRouter>
         <Routes>
-            <Route path='/index' element={<Index/>}/>
+            <Route path='/index/*' element={<Index/>}/>
             <Route path='/' element={<Navigate to='/index'/>}/>
             <Route path='*' element={<NotFound/>}/>
         </Routes>

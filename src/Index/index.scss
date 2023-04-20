@@ -1,0 +1,43 @@
+#index {
+    width: 100%;
+    height: 100%;
+
+    .index_container {
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+        background: linear-gradient(rgb(13, 13, 196),skyblue);
+
+        nav.top_nav_list {
+            position: fixed;
+            top: 0;
+            left: 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+            width: 100%;
+            height: 40px;
+            padding: 10px;
+            // background-color: aliceblue;
+
+            .top_nav_item {
+                width: 120px;
+                height: 100%;
+
+                a {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    width: 100%;
+                    height: 100%;
+                    text-decoration: none;
+                    color: white;
+                    border-radius: 20px;
+                }
+                a.active{
+                    background: linear-gradient(rgb(239,125,2),rgb(231,38,39));
+                }
+            }
+        }
+    }
+}
